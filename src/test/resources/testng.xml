@@ -1,0 +1,19 @@
+
+
+<suite name="API Test Suite">
+
+    <listeners>
+        <listener class-name="com.api.Listener.TestListener"/>
+    </listeners>
+
+    <test name="API Tests">
+        <classes>
+            <class name="com.api.tests.loginapitest"/>
+            <class name="com.api.tests.getprofiletest"/>
+            <class name="com.api.tests.forgotpwd"/>
+            <class name="com.api.tests.signupapitest"/>
+            <class name="com.api.tests.updateprofiletest"/>
+        </classes>
+    </test>
+
+</suite>

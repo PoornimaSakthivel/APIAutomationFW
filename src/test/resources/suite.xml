@@ -1,0 +1,13 @@
+
+
+<suite name="API Test Suite">
+    <listeners>
+        <listener class-name="com.api.Listener.TestListener"/>
+    </listeners>
+
+    <test name="API Tests">
+        <classes>
+            <class name="com.api.tests.loginapitest"/>
+        </classes>
+    </test>
+</suite>
