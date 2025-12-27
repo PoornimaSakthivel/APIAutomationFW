@@ -27,7 +27,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Execute Tests
-      run: mvn clean test -DSuite=suite -X
+      run: mvn clean test -DSuite=suite1 -X
        
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v6.0.0
